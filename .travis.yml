@@ -2,7 +2,8 @@ language: haskell
 
 before_install:
   - sudo apt-get update -qq
-  - sudo apt-get install -qq gtk2hs-buildtools
+  - sudo apt-get build-dep -qq gtk2hs-buildtools
+  - cabal install gtk2hs-buildtools
 
 ghc:
   - 7.0
