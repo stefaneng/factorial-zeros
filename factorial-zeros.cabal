@@ -13,6 +13,7 @@ cabal-version:       >=1.10
 
 executable factorial-zeros
   main-is:             Main.hs
-  build-depends:       base >=4
+  build-depends:       base >=4,
+                       Chart >= 1, Chart-cairo >= 1
   hs-source-dirs:      src
   default-language:    Haskell2010
